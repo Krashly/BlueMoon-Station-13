@@ -74,6 +74,26 @@
 	icon_state = "labcoat_inteq"
 	item_state = "labcoat_inteq"
 
+///Winter Coat
+/obj/item/clothing/suit/hooded/wintercoat/syndicate/inteq
+	name = "InteQ winter coat"
+	desc = "A sinister brown coat with black accents and a fancy mantle, it feels like it can take a hit."
+	icon = 'modular_bluemoon/krashly/icons/obj/clothing/suits.dmi'
+	mob_overlay_icon = 'modular_bluemoon/krashly/icons/mob/clothing/suits.dmi'
+	anthro_mob_worn_overlay = 'modular_bluemoon/krashly/icons/mob/clothing/suits.dmi'
+	icon_state = "coatinteq"
+	item_state = "coatinteq"
+	hoodtype = /obj/item/clothing/head/hooded/winterhood/syndicate/inteq
+///Hood
+/obj/item/clothing/head/hooded/winterhood/syndicate/inteq
+	name = "InteQ winter hood"
+	desc = "A sinister brown hood with armor padding."
+	icon = 'modular_bluemoon/krashly/icons/obj/clothing/head.dmi'
+	mob_overlay_icon = 'modular_bluemoon/krashly/icons/mob/clothing/head.dmi'
+	icon_state = "winterhood_inteq"
+	mutantrace_variation = STYLE_DIGITIGRADE|STYLE_NO_ANTHRO_ICON
+///
+
 //InteQ Hardsuits//
 
 //Helmet_ELITE

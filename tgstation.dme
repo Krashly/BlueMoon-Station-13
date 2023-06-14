@@ -4030,6 +4030,7 @@
 #include "modular_bluemoon\krashly\code\game\objects\items\weaponry.dm"
 #include "modular_bluemoon\krashly\code\game\objects\items\storage\backpack.dm"
 #include "modular_bluemoon\krashly\code\game\objects\items\storage\closet.dm"
+#include "modular_bluemoon\krashly\code\game\objects\structures\vendomate.dm"
 #include "modular_bluemoon\krashly\code\game\objects\structures\window.dm"
 #include "modular_bluemoon\krashly\code\game\turfs\simulated\floor\misc_floor.dm"
 #include "modular_bluemoon\krashly\code\game\turfs\simulated\wall\reinf_walls.dm"
