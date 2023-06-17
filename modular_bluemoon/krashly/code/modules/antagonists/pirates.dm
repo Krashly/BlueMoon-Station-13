@@ -1,32 +1,36 @@
 //ДЕЛАЮ ШАТТЛ НА МЕГАПОХУЙ
 
-/datum/map_template/shuttle/pirate/default/inteq
-	suffix = "inteq"
-	name = "pirate ship (InteQ)"
-
-/area/shuttle/pirate/inteq
+/area/shuttle/inteq
 	name = "InteQ Shuttle"
 
-/obj/machinery/computer/shuttle/pirate/inteq
-	name = "InteQ shuttle console"
-	shuttleId = "inteqship"
+/datum/map_template/shuttle/inteq_collosus
+	prefix = "_maps/shuttles/bluemoon/"
+	suffix = "inteq_collosus"
+	name = "Collosus Shuttle"
+
+/obj/machinery/computer/shuttle/inteq_collosus
+	name = "Collosus Control"
+	desc = "Used to control the Collosus."
 	icon_screen = "syndishuttle"
 	icon_keyboard = "syndie_key"
 	light_color = LIGHT_COLOR_ORANGE
-	req_access = list(ACCESS_SYNDICATE)
-	possible_destinations = "pirateship_away;pirateship_home;inteqship_custom"
+	circuit = /obj/item/circuitboard/computer/inteq_collosus
+	shuttleId = "inteq_collosus"
+	possible_destinations = "inteq_collosus_custom"
 
-/obj/machinery/computer/camera_advanced/shuttle_docker/syndicate/pirate/inteq
-	name = "InteQ shuttle navigation computer"
-	desc = "Used to designate a precise transit location for the InteQ Colossus."
-	shuttleId = "inteqship"
-	lock_override = CAMERA_LOCK_STATION
-	shuttlePortId = "inteqship_custom"
-	x_offset = 11
-	y_offset = 1
-	see_hidden = FALSE
+/obj/item/circuitboard/computer/inteq_collosus
+	name = "Collosus Control Console (Computer Board)"
+	build_path = /obj/machinery/computer/shuttle/inteq_collosus
 
-/obj/docking_port/mobile/pirate/inteq
-	name = "inteq shuttle"
-	id = "inteqship"
-	rechargeTime = 3 MINUTES
+/obj/machinery/computer/camera_advanced/shuttle_docker/inteq_collosus
+	name = "Collosus Navigation Computer"
+	desc = "The Navigation console for the Collosus."
+	icon_screen = "syndishuttle"
+	icon_keyboard = "syndie_key"
+	shuttleId = "inteq_collosus"
+	lock_override = NONE
+	shuttlePortId = "inteq_collosus_custom"
+	jumpto_ports = list("whiteship_away" = 1, "whiteship_home" = 1)
+	view_range = 14
+	x_offset = -7
+	y_offset = -7

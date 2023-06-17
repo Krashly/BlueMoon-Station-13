@@ -10,12 +10,10 @@
 "ab" = (
 /obj/structure/grille,
 /obj/structure/window/plastitanium/pirate,
-/obj/structure/window/plastitanium/pirate,
 /turf/open/floor/plating/airless,
 /area/shuttle/pirate)
 "ac" = (
 /obj/structure/grille,
-/obj/structure/window/plastitanium/pirate,
 /obj/structure/window/plastitanium/pirate,
 /turf/open/floor/plating,
 /area/shuttle/pirate)
@@ -1840,18 +1838,7 @@
 	port_direction = 2;
 	width = 23
 	},
-/obj/docking_port/stationary{
-	dwidth = 11;
-	height = 16;
-	id = "pirateship_home";
-	name = "Deep Space";
-	width = 17
-	},
 /obj/structure/fans/tiny,
-/obj/machinery/door/poddoor/shutters{
-	id = "cuttereva";
-	name = "EVA Shutters"
-	},
 /obj/machinery/button/door{
 	id = "cuttereva";
 	name = "EVA Shutters";
@@ -1859,9 +1846,6 @@
 	req_access_txt = "150"
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/barricade/wooden/crude{
-	layer = 3.13
-	},
 /turf/open/floor/pod/dark,
 /area/shuttle/pirate)
 "dk" = (
@@ -2053,6 +2037,23 @@
 /obj/structure/shuttle/engine/propulsion/right,
 /turf/open/floor/plating,
 /area/shuttle/pirate)
+"gB" = (
+/obj/machinery/door/poddoor/shutters{
+	id = "cuttereva";
+	name = "EVA Shutters"
+	},
+/turf/template_noop,
+/area/template_noop)
+"kj" = (
+/obj/docking_port/stationary{
+	dwidth = 11;
+	height = 16;
+	id = "pirateship_home";
+	name = "Deep Space";
+	width = 17
+	},
+/turf/template_noop,
+/area/template_noop)
 "kI" = (
 /obj/structure/sign/barsign,
 /turf/closed/wall/r_wall/syndicate/pirate/nodiagonal,
@@ -2519,7 +2520,7 @@ aj
 cS
 db
 dg
-af
+kj
 "}
 (18,1,1) = {"
 af
@@ -2563,7 +2564,7 @@ cF
 ck
 dk
 af
-af
+gB
 "}
 (20,1,1) = {"
 af
