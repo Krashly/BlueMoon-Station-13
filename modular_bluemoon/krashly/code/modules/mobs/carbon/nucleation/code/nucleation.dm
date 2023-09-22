@@ -61,8 +61,8 @@
 	liked_food = TOXIC | MEAT | RAW // ЖРЁМ ВСЯКИЙ КАЛЛ.
 	toxic_food = ANTITOXIC
 
-	burnmod = 4 // ГАЙД КАК СДОХНУТЬ ЗА 4 СЕКУНДЫ ОТ ОГНЯ.
-	heatmod = 4
+	burnmod = 2.5 // ГАЙД КАК СДОХНУТЬ ЗА 4 СЕКУНДЫ ОТ ОГНЯ. // UPD. РАНЬШЕ БЫЛО X4, НО ЭТО ОКАЗАЛОСЬ СЛИШКОМ ПИЗДЕЦОВЫМ.
+	heatmod = 2.5
 	brutemod = 2
 
 	species_traits = list(NOGENITALS,LIPS,NOBLOOD,NOAROUSAL,HAIR) // НЕТ СИСИК, НЕТ ПИСИК, НЕТ КРОВИ (МЫ ВСЁ ТАКИ ФЭМЭЛИ ФРЕНДЛИ СЕРВЕР), А ТАК ЖЕ НИКАКИХ ПОШЛОСТЕЙ.
